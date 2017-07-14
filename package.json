@@ -1,0 +1,33 @@
+{
+  "name": "RNRepositories",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "standard && jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1",
+    "react-native-device-info": "^0.9.5",
+    "react-native-root-toast": "^1.0.3",
+    "react-native-swiper": "^1.4.4",
+    "react-native-vector-icons": "^2.0.3",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-persist": "^2.0.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "redux-devtools": "^3.3.1",
+    "standard": "^10.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
